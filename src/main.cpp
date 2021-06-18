@@ -1,7 +1,7 @@
 #include <gtkmm/application.h>
-#include "GUI/LoginPage.hpp"
 #include "all_include_files.hpp"
-#include "GUI/FirstPage_master.hpp"
+#include "GUI/MainWindow.hpp"
+
 int main(){
 	Handler handler;
 	Course Mt(std::string("Math"),std::string("381200"));
@@ -19,7 +19,7 @@ int main(){
 	
 	const auto &app = Gtk::Application::create();
 
-	MainWindow mainWindow();
+	MainWindow mainWindow(handler);
 /*
 	LoginPage loginPage(handler);
 

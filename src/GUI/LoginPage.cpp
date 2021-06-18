@@ -1,20 +1,12 @@
-#include "GUI/LoginPage.hpp"
+//#include "GUI/LoginPage.hpp"
+#include "GUI/MainWindow.hpp"
 #include "all_include_files.hpp"
 #include <iostream>
 #include <string>
-#include "GUI/FirstPage_master.hpp"
-#include "GUI/FirstPage_student.hpp"
 #include "GUI/FirstPage.hpp"
 #include "GUI/Handler.hpp"
 
-LoginPage::LoginPage(Handler& handler){
-//	set_size_request(500,500);
-//	set_title("Login Page");
-	handler.WindowEmpty = false;
-	
-//	add(loginGrid);
-//	add(mainGrid);
-
+LoginPage::LoginPage(){
 	Entry_Username.set_max_length(50);
 	Entry_Password.set_max_length(50);
 	
@@ -25,14 +17,12 @@ LoginPage::LoginPage(Handler& handler){
 	
 	CheckButton_password_invisible.set_label(Glib::ustring("Show password"));
 
-	LoginButton.set_label("Login");
-//Username.set_text("Username");
-//Password.set_text("Password");
+	loginButton.set_label("Login");
 
-	loginGrid.attach(Entry_Username,1,2);
-	loginGrid.attach(Entry_Password,1,3);
-	loginGrid.attach(CheckButton_password_invisible,1,4);
-	loginGrid.attach(LoginButton,1,5);
+	attach(Entry_Username,1,2);
+	attach(Entry_Password,1,3);
+	attach(CheckButton_password_invisible,1,4);
+	attach(loginButton,1,5);
 
 //	Username.select_region(100, Username.get_text_length());
 	Entry_Password.set_visibility(false);
@@ -42,49 +32,44 @@ LoginPage::LoginPage(Handler& handler){
 
 	CheckButton_password_invisible.set_active(false);
 
-	LoginButton.set_can_default();
-	LoginButton.grab_default();
-
-	mainGrid.attach(loginGrid,2,2);
+	loginButton.set_can_default();
+	loginButton.grab_default();
 
 
-	LoginButton.signal_clicked().connect([&]{
-		std::cout << "Login Button Clicked" << std::endl;
-
-		std::string username = std::string(Entry_Username.get_buffer()->get_text());
-		std::string password = std::string(Entry_Password.get_buffer()->get_text());
-
-		if( handler.get_loginManager().login(username,password) == LoginManager::LoginState::SUCCESS){
-			std::cout << "Naaa BARIKALLAH!!\nNAAAAAA BIBIN MANOO ..... BARIKALLAH\nlogin successfull\n\n" << std::endl;
-			handler.WindowEmpty = true;
-			//this->close();
-			if(UserSerializer::UserType::MASTER == handler.userSerializer->getType(handler.userSerializer->serialize(handler.get_loginManager().getCurrentUser()))){
-				std::cout << "This username is Master!!\n" << std::endl;
-			
-				handler.currentLocation = Handler::Location::FIRSTPAGE_MASTER;
-				close();
-			/*
-				remove();
-//				FirstPage_master firstPage_master(handler,username);
-				FirstPage firstPage;
-				add(firstPage.grid);
-//				add(firstPage_master);
-				
-
-				show_all();*/
-			}
-		}
-		else if( handler.get_loginManager().login(username,password) == LoginManager::LoginState::USER_NOT_EXISTS){
-			std::cout << "user peida nashod" << std::endl;
-		}
-		else if( handler.get_loginManager().login(username,password) == LoginManager::LoginState::WRONG_PASSWORD){
-			std::cout << "Password EshtebaSSS dorostesh ro bezan ....\nplease read more: https://en.wikipedia.org/wiki/Stupidity ;)" << std::endl;
-		}
-	});
-
-	show_all();
+	loginButton.signal_clicked().connect(sigc::mem_fun(*this,&LoginPage::click_loginButton));
 }
 
-Gtk::Grid LoginPage::getResult(){
-	return mainGrid;
+void LoginPage::click_loginButton(){
+	std::cout << "Login Button Clicked" << std::endl;
+
+	std::string username = std::string(Entry_Username.get_buffer()->get_text());
+	std::string password = std::string(Entry_Password.get_buffer()->get_text());
+
+	if( handler.get_loginManager().login(username,password) == LoginManager::LoginState::SUCCESS){
+		std::cout << "Naaa BARIKALLAH!!\nNAAAAAA BIBIN MANOO ..... BARIKALLAH\nlogin successfull\n\n" << std::endl;
+		handler.WindowEmpty = true;
+		//this->close();
+		if(UserSerializer::UserType::MASTER == handler.userSerializer->getType(handler.userSerializer->serialize(handler.get_loginManager().getCurrentUser()))){
+			std::cout << "This username is Master!!\n" << std::endl;
+			
+			handler.currentLocation = Handler::Location::FIRSTPAGE_MASTER;
+			
+//			mainWindow->goToPage<LoginPage, FirstPage_master>(*this,mainWindow->firstPage_master);
+			mainWindow->goToCourseMasterPage();
+//			close();
+		/*
+			remove();
+//			FirstPage_master firstPage_master(handler,username);
+			FirstPage firstPage;
+			add(firstPage.grid);
+//			add(firstPage_master);
+				show_all();*/
+		}
+	}
+	else if( handler.get_loginManager().login(username,password) == LoginManager::LoginState::USER_NOT_EXISTS){
+		std::cout << "user peida nashod" << std::endl;
+	}
+	else if( handler.get_loginManager().login(username,password) == LoginManager::LoginState::WRONG_PASSWORD){
+		std::cout << "Password EshtebaSSS dorostesh ro bezan ....\nplease read more: https://en.wikipedia.org/wiki/Stupidity ;)" << std::endl;
+	}
 }

@@ -9,7 +9,7 @@ void Handler::push_course(Course course){
 	vector_course.push_back(course);
 }
 
-Course Handler::get_course_element(int element){
+Course& Handler::get_course_element(int element){
 	return vector_course[element];
 }
 
@@ -19,4 +19,21 @@ size_t Handler::get_course_size(){
 
 LoginManager& Handler::get_loginManager() {
 	return LoginManager::getInstance();
+}
+
+Handler& Handler::operator=(Handler& copyHandler){
+	currentLocation = copyHandler.currentLocation;
+	WindowEmpty = copyHandler.WindowEmpty;
+	userSerializer = copyHandler.userSerializer;
+	vector_course = copyHandler.vector_course;
+	loginManager = copyHandler.loginManager;
+
+	return *this;
+}
+
+void Handler::printCourses(){
+	for (size_t i = 0; i < vector_course.size(); i++){
+		std::cout << i << ": " << vector_course.at(i).getName() << std::endl;
+	}
+	std::cout << "vector course size: " << vector_course.size() << std::endl;
 }

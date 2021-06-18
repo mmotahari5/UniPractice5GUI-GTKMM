@@ -366,32 +366,32 @@ src/Exam/ExamStudentAccess.cpp.s:
 	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/Exam/ExamStudentAccess.cpp.s
 .PHONY : src/Exam/ExamStudentAccess.cpp.s
 
-src/GUI/FirstPage.o: src/GUI/FirstPage.cpp.o
+src/GUI/AddExamPage.o: src/GUI/AddExamPage.cpp.o
 
-.PHONY : src/GUI/FirstPage.o
+.PHONY : src/GUI/AddExamPage.o
 
 # target to build an object file
-src/GUI/FirstPage.cpp.o:
-	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o
-.PHONY : src/GUI/FirstPage.cpp.o
+src/GUI/AddExamPage.cpp.o:
+	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o
+.PHONY : src/GUI/AddExamPage.cpp.o
 
-src/GUI/FirstPage.i: src/GUI/FirstPage.cpp.i
+src/GUI/AddExamPage.i: src/GUI/AddExamPage.cpp.i
 
-.PHONY : src/GUI/FirstPage.i
+.PHONY : src/GUI/AddExamPage.i
 
 # target to preprocess a source file
-src/GUI/FirstPage.cpp.i:
-	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.i
-.PHONY : src/GUI/FirstPage.cpp.i
+src/GUI/AddExamPage.cpp.i:
+	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.i
+.PHONY : src/GUI/AddExamPage.cpp.i
 
-src/GUI/FirstPage.s: src/GUI/FirstPage.cpp.s
+src/GUI/AddExamPage.s: src/GUI/AddExamPage.cpp.s
 
-.PHONY : src/GUI/FirstPage.s
+.PHONY : src/GUI/AddExamPage.s
 
 # target to generate assembly for a file
-src/GUI/FirstPage.cpp.s:
-	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.s
-.PHONY : src/GUI/FirstPage.cpp.s
+src/GUI/AddExamPage.cpp.s:
+	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.s
+.PHONY : src/GUI/AddExamPage.cpp.s
 
 src/GUI/FirstPage_master.o: src/GUI/FirstPage_master.cpp.o
 
@@ -500,6 +500,33 @@ src/GUI/MainWindow.s: src/GUI/MainWindow.cpp.s
 src/GUI/MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s
 .PHONY : src/GUI/MainWindow.cpp.s
+
+src/GUI/RegisterStudentPage.o: src/GUI/RegisterStudentPage.cpp.o
+
+.PHONY : src/GUI/RegisterStudentPage.o
+
+# target to build an object file
+src/GUI/RegisterStudentPage.cpp.o:
+	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o
+.PHONY : src/GUI/RegisterStudentPage.cpp.o
+
+src/GUI/RegisterStudentPage.i: src/GUI/RegisterStudentPage.cpp.i
+
+.PHONY : src/GUI/RegisterStudentPage.i
+
+# target to preprocess a source file
+src/GUI/RegisterStudentPage.cpp.i:
+	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.i
+.PHONY : src/GUI/RegisterStudentPage.cpp.i
+
+src/GUI/RegisterStudentPage.s: src/GUI/RegisterStudentPage.cpp.s
+
+.PHONY : src/GUI/RegisterStudentPage.s
+
+# target to generate assembly for a file
+src/GUI/RegisterStudentPage.cpp.s:
+	$(MAKE) -f CMakeFiles/ExamWare.dir/build.make CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.s
+.PHONY : src/GUI/RegisterStudentPage.cpp.s
 
 src/LoginManager.o: src/LoginManager.cpp.o
 
@@ -861,9 +888,9 @@ help:
 	@echo "... src/Exam/ExamStudentAccess.o"
 	@echo "... src/Exam/ExamStudentAccess.i"
 	@echo "... src/Exam/ExamStudentAccess.s"
-	@echo "... src/GUI/FirstPage.o"
-	@echo "... src/GUI/FirstPage.i"
-	@echo "... src/GUI/FirstPage.s"
+	@echo "... src/GUI/AddExamPage.o"
+	@echo "... src/GUI/AddExamPage.i"
+	@echo "... src/GUI/AddExamPage.s"
 	@echo "... src/GUI/FirstPage_master.o"
 	@echo "... src/GUI/FirstPage_master.i"
 	@echo "... src/GUI/FirstPage_master.s"
@@ -876,6 +903,9 @@ help:
 	@echo "... src/GUI/MainWindow.o"
 	@echo "... src/GUI/MainWindow.i"
 	@echo "... src/GUI/MainWindow.s"
+	@echo "... src/GUI/RegisterStudentPage.o"
+	@echo "... src/GUI/RegisterStudentPage.i"
+	@echo "... src/GUI/RegisterStudentPage.s"
 	@echo "... src/LoginManager.o"
 	@echo "... src/LoginManager.i"
 	@echo "... src/LoginManager.s"

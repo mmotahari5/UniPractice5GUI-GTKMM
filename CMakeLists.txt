@@ -39,11 +39,12 @@ add_executable(${PROJECT_NAME}
     src/Util.cpp
 
 		# GUI
+		src/GUI/MainWindow.cpp
 		src/GUI/LoginPage.cpp
 		src/GUI/Handler.cpp
+		src/GUI/AddExamPage.cpp
 		src/GUI/FirstPage_master.cpp
-		src/GUI/FirstPage.cpp
-		src/GUI/MainWindow.cpp
+		src/GUI/RegisterStudentPage.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC

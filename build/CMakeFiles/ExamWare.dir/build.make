@@ -330,9 +330,22 @@ CMakeFiles/ExamWare.dir/src/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/Util.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/Util.cpp -o CMakeFiles/ExamWare.dir/src/Util.cpp.s
 
+CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o: CMakeFiles/ExamWare.dir/flags.make
+CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o: ../src/GUI/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/MainWindow.cpp
+
+CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/MainWindow.cpp > CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.i
+
+CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/MainWindow.cpp -o CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s
+
 CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o: CMakeFiles/ExamWare.dir/flags.make
 CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o: ../src/GUI/LoginPage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/LoginPage.cpp
 
 CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.s: cmake_force
 
 CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o: CMakeFiles/ExamWare.dir/flags.make
 CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o: ../src/GUI/Handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/Handler.cpp
 
 CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.i: cmake_force
@@ -356,9 +369,22 @@ CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/Handler.cpp -o CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.s
 
+CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o: CMakeFiles/ExamWare.dir/flags.make
+CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o: ../src/GUI/AddExamPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/AddExamPage.cpp
+
+CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/AddExamPage.cpp > CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.i
+
+CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/AddExamPage.cpp -o CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.s
+
 CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o: CMakeFiles/ExamWare.dir/flags.make
 CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o: ../src/GUI/FirstPage_master.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/FirstPage_master.cpp
 
 CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.i: cmake_force
@@ -369,31 +395,18 @@ CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/FirstPage_master.cpp -o CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.s
 
-CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o: CMakeFiles/ExamWare.dir/flags.make
-CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o: ../src/GUI/FirstPage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/FirstPage.cpp
+CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o: CMakeFiles/ExamWare.dir/flags.make
+CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o: ../src/GUI/RegisterStudentPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/RegisterStudentPage.cpp
 
-CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/FirstPage.cpp > CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.i
+CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/RegisterStudentPage.cpp > CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.i
 
-CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/FirstPage.cpp -o CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.s
-
-CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o: CMakeFiles/ExamWare.dir/flags.make
-CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o: ../src/GUI/MainWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o -c /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/MainWindow.cpp
-
-CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/MainWindow.cpp > CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.i
-
-CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/MainWindow.cpp -o CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.s
+CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/src/GUI/RegisterStudentPage.cpp -o CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.s
 
 # Object files for target ExamWare
 ExamWare_OBJECTS = \
@@ -418,11 +431,12 @@ ExamWare_OBJECTS = \
 "CMakeFiles/ExamWare.dir/src/LoginManager.cpp.o" \
 "CMakeFiles/ExamWare.dir/src/UserDataManager.cpp.o" \
 "CMakeFiles/ExamWare.dir/src/Util.cpp.o" \
+"CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o" \
 "CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o" \
 "CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o" \
+"CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o" \
 "CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o" \
-"CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o" \
-"CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o"
+"CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o"
 
 # External object files for target ExamWare
 ExamWare_EXTERNAL_OBJECTS =
@@ -448,14 +462,15 @@ ExamWare: CMakeFiles/ExamWare.dir/src/AnswerSheet.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/src/LoginManager.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/src/UserDataManager.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/src/Util.cpp.o
+ExamWare: CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/src/GUI/LoginPage.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/src/GUI/Handler.cpp.o
+ExamWare: CMakeFiles/ExamWare.dir/src/GUI/AddExamPage.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/src/GUI/FirstPage_master.cpp.o
-ExamWare: CMakeFiles/ExamWare.dir/src/GUI/FirstPage.cpp.o
-ExamWare: CMakeFiles/ExamWare.dir/src/GUI/MainWindow.cpp.o
+ExamWare: CMakeFiles/ExamWare.dir/src/GUI/RegisterStudentPage.cpp.o
 ExamWare: CMakeFiles/ExamWare.dir/build.make
 ExamWare: CMakeFiles/ExamWare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable ExamWare"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mmotahari5/Programming/Advanced_Programming/sheigaraii/Tamrin5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable ExamWare"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExamWare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

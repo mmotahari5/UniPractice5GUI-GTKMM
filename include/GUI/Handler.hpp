@@ -9,6 +9,7 @@
 #include "User/Master.hpp"
 #include "User/Student.hpp"
 #include "User/UserSerializer.hpp"
+#include <vector>
 
 class Handler{
 	public:
@@ -20,19 +21,19 @@ class Handler{
 		bool WindowEmpty = true;
 
 		void push_course(Course);
-		Course get_course_element(int);
+		Course& get_course_element(int);
 		size_t get_course_size();
 		
 		LoginManager& get_loginManager() ;
 		
 		UserSerializer * userSerializer = &UserSerializer::getInstance();
 
+		Handler& operator=(Handler&);
+		void printCourses();
 	private:
 		std::vector<Course> vector_course;
 
 		LoginManager * loginManager = &LoginManager::getInstance();
-
-
 
 };
 
